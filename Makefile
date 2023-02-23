@@ -1,0 +1,2 @@
+push-artifactory:
+	npm publish
