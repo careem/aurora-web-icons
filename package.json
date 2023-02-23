@@ -1,0 +1,29 @@
+{
+  "name": "@careem/aurora-web-icons",
+  "version": "1.0.1",
+  "description": "##### Icons for Careem's web applications.",
+  "main": "web/style.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "GIT_AUTHOR_NAME=spetri GIT_AUTHOR_EMAIL=sabbap@gmail.com GIT_COMMITTER_NAME=spetri GIT_COMMITTER_EMAIL=sabbap@gmail.com semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/careem/aurora-web-icons.git"
+  },
+  "keywords": [
+    "icons",
+    "aurora",
+    "web",
+    "aurora-web"
+  ],
+  "author": "muhammad.usman1@careem.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/careem/aurora-web-icons/issues"
+  },
+  "homepage": "https://github.com/careem/aurora-web-icons#readme",
+  "publishConfig": {
+    "registry": "https://artifactory-pro.careem-internal.com/artifactory/api/npm/npm-local/"
+  }
+}
