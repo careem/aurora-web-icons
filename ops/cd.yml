@@ -15,4 +15,3 @@ jobs:
     - name: publish
       stage: publish
       cmd: make push-artifactory
-      artifactsDir: __artifacts__
