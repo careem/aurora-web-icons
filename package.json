@@ -1,6 +1,6 @@
 {
   "name": "@careem/aurora-web-icons",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "##### Icons for Careem's web applications.",
   "main": "web/style.css",
   "scripts": {
